@@ -6,7 +6,7 @@ pipeline {
 	
 	
 	stages {
-		stage(test shared variables) {
+		stage('test shared variables') {
 			step {
 				variables.test()
 			}
