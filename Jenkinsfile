@@ -7,9 +7,8 @@ pipeline {
         stage ('Example') {
             steps {
                 // log.info 'Starting' 
-                script { 
-                    testingVars name: nisun
-                }
+
+                    testingVars 'nisun'
             }
         }
     }
