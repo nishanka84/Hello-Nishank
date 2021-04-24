@@ -4,7 +4,7 @@ pipeline {
      agent any
 	  stages {
 		stage('test shared variables') {
-		     step {
+		     steps {
 			variables.test()
 		     }
 		}
