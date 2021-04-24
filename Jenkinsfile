@@ -5,7 +5,8 @@ pipeline {
 	  stages {
 		stage('test shared variables') {
 		     steps {
-			variables.test()
+			//variables.test()
+			   echo "branch not specified"
 		     }
 		}
 	 }
