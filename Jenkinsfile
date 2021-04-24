@@ -10,5 +10,10 @@ pipeline {
                 testing name: 'git'
             }
         }
+         stage ('Email') {
+             steps {  
+                notify type: 'slack' message: 'a slack notification'
+             }
+         }    
     }
 }
