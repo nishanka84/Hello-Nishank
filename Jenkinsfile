@@ -1,7 +1,7 @@
 
 @Library('shared-nishank') _
 
-testingVars 'nisun'
+testing 'nisun'
 
 //pipeline {
 //    agent none
