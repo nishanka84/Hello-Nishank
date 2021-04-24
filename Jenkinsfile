@@ -12,7 +12,7 @@ pipeline {
         }
          stage ('Email') {
              steps {  
-                notify type: 'slack' message: 'a slack notification'
+                notify type: "slack", message: "a slack notification"
              }
          }    
     }
