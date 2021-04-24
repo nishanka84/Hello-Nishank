@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('Example') {
             steps { 
-                testing 'nisun'
+                testing name: nishank
             }
         }
     }
