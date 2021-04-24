@@ -1,7 +1,11 @@
 @library(shared-nishank) _
 
 pipeline {
-	agent {
+	agent any
+	
+	
+	
+	stages {
 		stage(test shared variables) {
 			step {
 				variables.test()
