@@ -8,7 +8,7 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
-                    variables 'nishank'
+                    variables name: nisun
                 }
             }
         }
