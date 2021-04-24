@@ -1,4 +1,4 @@
-@library(shared-nishank@master) _
+@library(shared-nishank) _
 
 pipeline {
 	agent {
