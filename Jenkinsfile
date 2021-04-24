@@ -8,7 +8,7 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
-                    echo "branch not specified"
+                    variables.test()
                 }
             }
         }
